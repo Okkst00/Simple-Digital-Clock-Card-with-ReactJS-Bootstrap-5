@@ -1,0 +1,110 @@
+body {
+    background:linear-gradient(to right, #ffa7ed 0%, #7104b4 100%);
+}
+
+.container .row .col .card {
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 12px;
+}
+
+.container .row .col .card img {
+    min-height: 330px; 
+    max-height: 330px; 
+    object-fit: cover; 
+    border-radius: 28px;
+}
+
+.container .row .col .card .card-body .times{
+    color: black;
+    background-color: rgba(255, 228, 173, 0.7);
+    border-radius: 12px;
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+.container .row .col .card .card-body .date {
+    font-size: 18px;
+    color: #7104b4;
+}
+
+.container .row .col .card .card-body .bott-name {
+    font-size: 17px;
+    background-color: #7104b4;
+    color: white;
+    width: fit-content;
+    margin-bottom: -17px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+@media (max-width:768px) {
+    
+.container .row .col .card img {
+    min-height: 300px; 
+    max-height: 300px; 
+    object-fit: cover; 
+    border-radius: 32px;
+}
+
+.container .row .col .card .card-body .times {
+    font-size: 30px;
+    color: black;
+}
+
+.container .row .col .card .card-body .date {
+    font-size: 17px;
+    color: #7104b4;
+}
+
+.container .row .col .card .card-body .bott-name {
+    font-size: 17px;
+    background-color: #7104b4;
+    color: white;
+    width: fit-content;
+    margin-bottom: -17px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+}
+
+@media (max-width:450px) {
+    
+.container .row .col .card img {
+    min-height: 250px; 
+    max-height: 250px; 
+    object-fit: cover; 
+    border-radius: 32px;
+}
+
+.container .row .col .card .card-body .times {
+    font-size: 23px;
+    color: black;
+}
+
+.container .row .col .card .card-body .date {
+    font-size: 15px;
+    color: #7104b4;
+}
+
+.container .row .col .card .card-body .bott-name {
+    font-size: 15px;
+    background-color: #7104b4;
+    color: white;
+    width: fit-content;
+    margin-bottom: -17px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+}
